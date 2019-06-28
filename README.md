@@ -20,7 +20,7 @@ var grade1 = 7.0
 var grade2 = 9.0
 var grade3 = 5.0
 
-// var grade1 = 7.0
+var grade1 = 7.0
 var grade2 = 9.0
 var grade3 = 5.0
 var mygrade = 8.0
@@ -41,7 +41,7 @@ You are given a number. Print even if the number is even or odd otherwise.
 ```swift
 let number = 2
 
-// if number % 2 == 0 {
+if number % 2 == 0 {
 print ("even")
 } else {
 print ( "odd")
@@ -57,7 +57,7 @@ You are given two numbers `a` and `b`. Print `"divisible"` if `a` is divisible b
 var a = 12
 var b = 3
 
-// if a % b == 0 {
+if a % b == 0 {
 print("divisble")
 } else {
 print( "not divisible")
@@ -112,7 +112,7 @@ The above rule is valid except that every 100 years special rules apply. Years t
 ```swift
 let year = 2014
 
-// let year = 2014
+let year = 2014
 
 if year % 400 == 0 {
 print ("leap year")
@@ -154,7 +154,7 @@ var b = 6
 var c = 3
 var d = 4
 
-// if a < b && a<c && a<d {
+if a < b && a<c && a<d {
 print (a)
 } else if b<a && b<c && b<d {
 print (b)
